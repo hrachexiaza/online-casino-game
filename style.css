@@ -1,0 +1,500 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.casino{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px ;
+    background-image: url(imgs/d8a85751d23046c255dbbb86f15bc411.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.registretfull{
+     border-radius: 50px;
+    width: 40%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 14px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(imgs/417e268376c4bca353b366d10f135cc4.jpg);
+
+}
+.registretion{
+    border-radius: 50px;
+    width: 40%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 14px;
+    background-image: url(imgs/417e268376c4bca353b366d10f135cc4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.regBtn, .register{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    font-size: 45px;
+    font-style: italic;
+    color:  white ;
+    font-weight: 100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.userName, .pass,.passs{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.email, .password,.pass2{
+    height: 80%;
+    width: 70%;
+    border-radius: 50px;
+    font-size: 25px;
+    padding: 10px;
+}
+.iconUser{
+    font-size: 20px;
+}
+    .passs{
+      display: flex;
+      padding-left: 34px;
+    }
+    .pass2{
+        border-radius: 50px;
+        width: 73%;
+    }
+.iconPass{
+    font-size: 20px;
+}
+
+.fullreg{
+    width: 100%;
+    gap: 10px;
+    height: 100% ;
+    display: flex;
+    flex-direction: column;
+     padding: 50px 10px;
+     align-items: center;    
+
+}
+.pass2::placeholder {
+    font-size: 20px;
+    font-style: italic;
+}
+.password::placeholder {
+  font-size: 20px; 
+  font-style: italic;}  
+  .email::placeholder {
+    font-size: 20px;
+    font-style: italic;
+  }
+  .login{
+    width: 100%;
+    height: 17%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding-left: 25px;
+   
+  }
+
+  .logg, .logg1 {
+    width: 65%;
+    height: 100%;
+    border-radius: 50px;
+     background-color: #D63078;
+     color: white;
+     font-size: 25px;
+     font-weight: 700;
+  }
+  .achave{
+      width: 80%;
+      height: 100%;
+    border-radius: 50px;
+    background-color: #6886E4;
+     color: white;
+     font-size: 25px;
+     font-weight: 700; 
+     
+
+  }
+  .full{
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+
+  
+
+
+
+  .slots {
+    width: 45%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-left: 7px;
+    padding-bottom: 16px;
+    
+   
+    margin-bottom: 20px;
+        gap: 20px;
+    
+}
+
+.slot {
+    width: 70px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    border-radius: 15px;
+    color: white;
+    background-image: url(imgs/Снимок\ экрана\ 2026-04-25\ 135059.png);
+     background-size: contain;
+   
+    background-position: center;
+}
+
+.spinBtn {
+    padding: 10px 20px;
+    font-size: 40px;
+    width: 40%;
+    border-radius: 50px;
+    background-size: contain;
+    background-image: url(imgs/pngtree-stunning-3d-slot-machine-in-online-casino-with-flying-coins-and-image_3910544.jpg);
+    color: white;
+    font-weight: 800;
+    background-position: center;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    padding: 10px 20px;
+    z-index: 10;
+
+}
+     
+
+
+
+
+
+
+.spin {
+    animation: spinAnim 0.3s linear infinite;
+}
+
+
+
+
+.spin {
+    animation: spinAnim 0.15s linear infinite;
+}
+.achavee{
+    width: 100%;
+    padding-left: 29px;
+    height: 20%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+@keyframes spinAnim {
+    0% { transform: scale(1) rotate(0deg); }
+    50% { transform: scale(1.2) rotate(10deg); }
+    100% { transform: scale(1) rotate(0deg); }
+}
+
+/* SLOT CONTAINER */
+.sloter {
+    background-image: url(imgs/1winonlinegaming1.webp);
+    width: 36%;
+    height: 80%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 100px;
+    position: relative;
+}
+
+/* WIN ANIMATION */
+.win {
+    animation: winFlash 0.3s infinite;
+}
+
+@keyframes winFlash {
+    0% { transform: scale(1); filter: brightness(1); }
+    50% { transform: scale(1.3); filter: brightness(2); color: gold; }
+    100% { transform: scale(1); filter: brightness(1); }
+}
+
+/* SLOT SHADOW */
+.slot {
+    box-shadow: 0 0 10px gold;
+}
+
+.spinBtn {
+    box-shadow: 0 0 20px red;
+}
+
+/* 📱 MOBILE */
+@media (max-width: 768px) {
+
+    .casino {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .registretion,
+    .registretfull {
+        width: 95%;
+        height: auto;
+        padding: 20px 10px;
+        border-radius: 20px;
+    }
+
+    .register,
+    .regBtn {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .email,
+    .password,
+    .pass2 {
+        width: 90%;
+        font-size: 16px;
+    }
+    .achavee{
+        height: 40%;
+        padding-left: 20px;
+    }
+    .logg,
+    .logg1,
+    .achave {
+        width: 90%;
+        font-size: 18px;
+        height: 45px;
+    }
+
+    .sloter {
+        width: 95%;
+        height: 50%;
+        border-radius: 30px;
+    }
+
+    .slots {
+        width: 100%;
+        padding-left: 3px;
+        gap: 17px;
+        height: 30%;
+        justify-content: center;
+    }
+
+    .slot {
+        width: 45px;
+        height: 80px;
+        font-size: 35px;
+    }
+
+    .spinBtn {
+        width: 40%;
+        font-size: 20px;
+        height: 45px;
+
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+/* @keyframes spinAnim {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+    50% {
+        transform: scale(1.2) rotate(10deg);
+    }
+    100% {
+        transform: scale(1) rotate(0deg);
+    }
+}
+.sloter {
+    background-image: url(imgs/1winonlinegaming1.webp);
+    width: 36%;
+    height: 80%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+}
+
+  @media (max-width: 768px) {
+    .registretion {
+        width: 90% !important; 
+        height: auto !important; 
+        padding: 20px 0;
+    }
+     
+}
+    .regBtn {
+        font-size: 30px !important; 
+        gap: 2px;
+    }
+
+    .email, .password {
+        width: 85% !important; 
+        font-size: 18px !important;
+    }
+
+    .logg, .achave {
+        width: 85% !important;
+        font-size: 20px !important;
+        height: 45px !important;
+    }
+}
+
+.win {
+    animation: winFlash 0.3s infinite;
+}
+
+    @keyframes winFlash {
+        0% {
+            transform: scale(1);
+            filter: brightness(1);
+        }
+        50% {
+            transform: scale(1.3);
+            filter: brightness(2);
+            color: gold;
+        }
+        100% {
+            transform: scale(1);
+            filter: brightness(1);
+        }
+    }
+
+     @media (max-width: 768px) { 
+
+        .casino {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .registretion,
+        .registretfull {
+            width: 95% !important;
+            height: auto !important;
+            padding: 20px 10px;
+            border-radius: 20px;
+        }
+        
+        
+        .register,
+        .regBtn {
+            font-size: 28px !important;
+            text-align: center;
+        }
+
+        .email,
+        .password,
+        .pass2 {
+            width: 90% !important;
+            font-size: 16px !important;
+        }
+        
+        .logg,
+        .logg1,
+        .achave {
+            width: 90% !important;
+            font-size: 18px !important;
+            height: 45px !important;
+        }
+        .sloter {
+            width: 95%;
+            height: 50%;
+            border-radius: 30px;
+        }
+
+        .slots {
+            width: 100%;
+            border: solid blue;
+            gap: 10px;
+            height: 30%;
+            padding-top: 10px;
+            justify-content: center;
+        }
+
+        .slot {
+            width: 40px;
+            height: 70px;
+            font-size: 40px;
+        }
+
+        .spinBtn {
+            width: 50%;
+            font-size: 25px;
+            height: 40px;
+            bottom: 20px;
+        }
+    }  
+
+    .slot {
+        box-shadow: 0 0 10px gold;
+    }
+
+    .spinBtn {
+        box-shadow: 0 0 20px red;
+    } 
+
+
+    */
